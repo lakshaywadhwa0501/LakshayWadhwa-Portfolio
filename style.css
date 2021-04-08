@@ -60,7 +60,7 @@ body
 .list-inline
 {
     display:inline;
-    padding:0rem 0.2rem;
+    padding:0rem 0.5rem;
 }
 .list-inline2
 {
@@ -89,8 +89,8 @@ body
 
 .align
 {
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     text-align:right;
     padding-inline-start: 0px;
 }
@@ -98,7 +98,7 @@ body
 .link-active
 {
     font-weight: bold;
-    padding:0rem 0.4rem 0.2rem 0.4rem;
+    padding:0rem 0.5rem 0.2rem 0.5rem;
     border:2px solid white;
     border-radius:11px;
     font-size: 20px;
@@ -158,8 +158,8 @@ body
 
 .social
 {
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: white;
     
 }
