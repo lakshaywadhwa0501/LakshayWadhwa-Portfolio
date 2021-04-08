@@ -60,7 +60,7 @@ body
 .list-inline
 {
     display:inline;
-    padding:0rem 0.3rem;
+    padding:0rem 0.2rem;
 }
 .list-inline2
 {
@@ -91,14 +91,14 @@ body
 {
     padding-left: 0rem;
     padding-right: 0rem;
-    text-align:center;
+    text-align:right;
     padding-inline-start: 0px;
 }
 
 .link-active
 {
     font-weight: bold;
-    padding:0px 10px 4px 10px;
+    padding:0rem 0.4rem 0.2rem 0.4rem;
     border:2px solid white;
     border-radius:11px;
     font-size: 20px;
