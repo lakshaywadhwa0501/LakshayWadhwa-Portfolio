@@ -194,3 +194,20 @@ body
     margin-right: 0rem;
     margin-inline-start: 0rem;
 }
+
+.blog .blog-heading 
+{
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.link
+{
+   
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.blog-info
+{
+    padding: 0rem 0rem 0rem 0rem;
+}
