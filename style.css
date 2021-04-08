@@ -104,8 +104,12 @@ body
     font-size: 20px;
 }
 
-.lin-active:hover {
-    opacity: 0.8;
+.link-inactive
+{
+    font-weight: bold;
+    padding:0rem 0.5rem 0.2rem 0.5rem;
+
+    font-size: 20px;
 }
 .hero 
 {
