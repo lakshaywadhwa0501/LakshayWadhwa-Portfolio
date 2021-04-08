@@ -91,7 +91,8 @@ body
 {
     padding-left: 0rem;
     padding-right: 0rem;
-    text-align: right;
+    text-align:center;
+    padding-inline-start: 0px;
 }
 
 .link-active
@@ -180,3 +181,12 @@ body
       padding: 20px;
       margin-right: 1rem;
    }
+
+.buttons
+{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-inline-start: 0rem;
+}
