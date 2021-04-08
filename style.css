@@ -23,8 +23,8 @@ body
 
 .container
 {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .container-center
@@ -60,7 +60,7 @@ body
 .list-inline
 {
     display:inline;
-    padding:0rem 1rem;
+    padding:0rem 0.5rem;
 }
 .list-inline2
 {
@@ -155,8 +155,7 @@ body
 
 .social
 {
-    padding-bottom: 2rem;
-    padding-inline-start: 0px;
+    
     color: white;
     
 }
@@ -166,45 +165,10 @@ body
     padding-top: 0rem;
     padding-bottom:1rem;
 }
-
-
-
-/* .fa {
-   padding: 20px;
-   width: 1rem;
-   text-align: center;
-   text-decoration: none;
-   border-radius: 50%;
-   margin-right: 1rem;
-   border:1px solid black;
-  }
-   */
   
   .fa:hover {
       opacity: 0.8;
   }
-  
-  /* .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-
-  
-  .fa-instagram {
-    background: #ffffff;
-    color: crimson;
-  }
-   */
 
    .logo
    {
