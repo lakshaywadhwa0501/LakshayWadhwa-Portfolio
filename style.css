@@ -23,8 +23,8 @@ body
 
 .container
 {
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .container-center
@@ -155,7 +155,8 @@ body
 
 .social
 {
-    
+    padding-left: 0rem;
+    padding-right: 0rem;
     color: white;
     
 }
