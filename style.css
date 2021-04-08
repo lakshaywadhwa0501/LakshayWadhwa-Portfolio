@@ -89,6 +89,8 @@ body
 
 .align
 {
+    padding-left: 0rem;
+    padding-right: 0rem;
     text-align: right;
 }
 
