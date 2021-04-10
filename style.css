@@ -210,3 +210,56 @@ body
 {
     padding: 0rem 0rem 0rem 0rem;
 }
+
+.hello
+{
+    border: solid 2px black;
+    align-content: center;
+    padding-left: 10rem;
+}
+
+.label1
+{
+    font-size: 60px;
+}
+
+.ClickMe
+{
+    font-size: 30px;
+}
+
+.Ques
+{
+    font-size: 20px;
+    color:rgb(79, 1, 18);
+    font-weight: bold;
+}
+
+.Ans
+{
+    font-size: 20px;
+    height: 35px;
+    width: 200px;
+    border: 2px solid crimson;
+    border-radius: 10px;
+    padding-left: 0.5rem;
+}
+
+.submitgame
+{
+    background-color: whitesmoke;
+    border: solid 2px crimson;
+    border-radius:5px ;
+    font-size: 20px;
+}
+
+.Questions
+{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    align-content: left;
+    padding-left: 1rem;
+    padding-bottom: 1.5rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
