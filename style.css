@@ -245,7 +245,7 @@ body
     padding-left: 0.5rem;
 }
 
-.submitgame .click
+.submitgame 
 {
     background-color: whitesmoke;
     border: solid 2px crimson;
@@ -268,8 +268,7 @@ body
     align-content: left;
     padding-left: 1rem;
     padding-bottom: 1.5rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin: auto;
 }
 
 .heading
@@ -280,10 +279,13 @@ body
 
 .gameimg
 {
-   padding-left: 15rem;
-   padding-top:0rem ;
-   padding-bottom: 0rem;
-   height: 50rem;
-   width: 50rem;
+align-items: center;
+   height: 25rem;
+   width: 30em;
 
+}
+
+.Ans1
+{
+    border: 1px solid blue;
 }

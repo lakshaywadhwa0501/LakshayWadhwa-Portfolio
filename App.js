@@ -28,7 +28,7 @@ submit.addEventListener("click",function outputshow(){
     if(Ans5.value==='Mountains')
     score++;
      
-    if(score>4)
+    if(score>=4)
     {
     Output.innerText = namein.value+", Your Final Score is: " + score + "/5 \n"+"Yes, You Know Pretty Much About Me! ❤️";
     }
