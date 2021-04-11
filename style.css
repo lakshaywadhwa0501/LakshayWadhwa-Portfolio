@@ -267,6 +267,7 @@ body
     border-radius: 10px;
     align-content: left;
     padding-left: 1rem;
+    padding-right: 0.5rem;
     padding-bottom: 1.5rem;
     margin: auto;
 }
@@ -279,9 +280,11 @@ body
 
 .gameimg
 {
-align-items: center;
-   height: 25rem;
-   width: 30em;
+   display: block;
+   margin: 0 auto;
+   height: 20rem;
+   width: 30rem;
+   padding-top: 1rem;
 
 }
 
