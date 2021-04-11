@@ -282,8 +282,8 @@ body
 {
    display: block;
    margin: 0 auto;
-   height: 20rem;
-   width: 20rem;
+   height: auto;
+   width: auto;
    padding-top: 1rem;
 
 }
