@@ -41,11 +41,11 @@ submit.addEventListener("click",function outputshow(){
 
     if(score>=4)
     {
-    Output.innerText = namein.value+", Your Final Score is: " + score + "/5 \n"+"Yes, You Know Pretty Much About Me! ❤️";
+    Output.innerText = " Your Final Score is: " + score + "/5 \n"+"Yes, You Know Pretty Much About Me! ❤️\n Thanks for playing "+namein.value;
     }
     else
     {
-    Output.innerText = namein.value+", Your Final Score is: " + score + "/5 \n"+"You need to know me more 😅";
+    Output.innerText = " Your Final Score is: " + score + "/5 \n"+"You need to know me more 😅\n Thanks for playing "+namein.value;
     }
 })
 
