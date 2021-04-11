@@ -3,7 +3,7 @@ var namein=document.querySelector("#nameinput");
 
 button.addEventListener("click",function nameout(){
     console.log("Clicked!");
-    Output1.innerText="Welcome "+namein.value+"!\n Let's Scroll Down";
+    Output1.innerText="Welcome "+namein.value+"!\n Let's Scroll Down 👇🏻";
 })
 var Ans1 = document.querySelector("#Ans1");
 var Ans2 = document.querySelector("#Ans2");
