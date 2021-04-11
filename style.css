@@ -239,7 +239,7 @@ body
 {
     font-size: 20px;
     height: 35px;
-    width: 200px;
+    width: fit-content;
     border: 2px solid crimson;
     border-radius: 10px;
     padding-left: 0.5rem;
@@ -288,7 +288,3 @@ body
 
 }
 
-.Ans1
-{
-    border: 1px solid blue;
-}
