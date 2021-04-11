@@ -3,7 +3,7 @@ var namein=document.querySelector("#nameinput");
 
 button.addEventListener("click",function nameout(){
     console.log("Clicked!");
-    Output1.innerText="Welcome "+namein.value+"! Let's Scroll Down";
+    Output1.innerText="Welcome "+namein.value+"!\n Let's Scroll Down";
 })
 var Ans1 = document.querySelector("#Ans1");
 var Ans2 = document.querySelector("#Ans2");
@@ -13,19 +13,19 @@ var Ans5 = document.querySelector("#Ans5");
 var submit=document.querySelector("#submitncheck");
 submit.addEventListener("click",function outputshow(){
     var score=0;
-    if(Ans1.value==='Black')
+    if((Ans1.value.trim())==='Black')
     score++;
     
-    if(Ans2.value==='Savoury')
+    if((Ans2.value.trim())==='Savoury')
     score++;
     
-    if(Ans3.value==='Pizza')
+    if((Ans3.value.trim())==='Pizza')
     score++;
     
-    if(Ans4.value==='Hindi')
+    if((Ans4.value.trim())==='Hindi')
     score++;
     
-    if(Ans5.value==='Mountains')
+    if((Ans5.value.trim())==='Mountains')
     score++;
     
     document.getElementById("Ans1").style.color = "green";
