@@ -1,6 +1,6 @@
 var button=document.querySelector("#ClickMe");
 var namein=document.querySelector("#nameinput");
-var u=namein.value;
+
 var serverURL="https://PortfolioServer.lakshaywadhwa.repl.co/translate/yoda.json"
 
 button.addEventListener("click",function nameout(){
@@ -55,7 +55,7 @@ submit.addEventListener("click",function outputshow(){
     }
 
 
-    fetch(urlGenerator(u))
+    fetch(urlGenerator(namein.value))
     .then(response => response.json())
     .then(json => console.log(json))
     
