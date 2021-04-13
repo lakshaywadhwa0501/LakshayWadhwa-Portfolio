@@ -13,6 +13,9 @@ var Ans3 = document.querySelector("#Ans3");
 var Ans4 = document.querySelector("#Ans4");
 var Ans5 = document.querySelector("#Ans5");
 var submit=document.querySelector("#submitncheck");
+function urlGenerator(i){
+    return serverURL+"?"+"text="+i;
+}
 
 submit.addEventListener("click",function outputshow(){
     var score=0;
@@ -63,6 +66,3 @@ submit.addEventListener("click",function outputshow(){
 
 })
 
-function urlGenerator(i){
-    return serverURL+"?"+"text="+i;
-}
