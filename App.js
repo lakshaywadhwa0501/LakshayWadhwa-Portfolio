@@ -62,7 +62,6 @@ submit.addEventListener("click",function outputshow(){
     fetch(urlGenerator(score))
     .then(response => response.json())
     .then(json => console.log(json))
-    console.log("-------------------")
 
 })
 
