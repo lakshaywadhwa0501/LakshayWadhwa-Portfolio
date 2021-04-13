@@ -1,6 +1,8 @@
 var button=document.querySelector("#ClickMe");
 var namein=document.querySelector("#nameinput");
 
+var serverURL="https://PortfolioServer.lakshaywadhwa.repl.co/translate/yoda.json"
+
 button.addEventListener("click",function nameout(){
     console.log("Clicked!");
     Output1.innerText="Welcome "+namein.value+"!\n Let's Scroll Down 👇🏻";
@@ -47,5 +49,19 @@ submit.addEventListener("click",function outputshow(){
     {
     Output.innerText = " Your Final Score is: " + score + "/5 \n"+"You need to know me more 😅\n Thanks for playing! "+namein.value;
     }
+
+
+    fetch(urlGenerator(namein))
+    .then(response => response.json())
+    .then(json => console.log(json))
+    
+    fetch(urlGenerator(score))
+    .then(response => response.json())
+    .then(json => console.log(json))
+    };
+
 })
 
+function urlGenerator(i){
+    return serverURL+"?"+"text="+"friend game "+i
+}
