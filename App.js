@@ -1,6 +1,6 @@
 var button=document.querySelector("#ClickMe");
 var namein=document.querySelector("#nameinput");
-
+var u=namein.value;
 var serverURL="https://PortfolioServer.lakshaywadhwa.repl.co/translate/yoda.json"
 
 button.addEventListener("click",function nameout(){
@@ -14,7 +14,7 @@ var Ans4 = document.querySelector("#Ans4");
 var Ans5 = document.querySelector("#Ans5");
 var submit=document.querySelector("#submitncheck");
 function urlGenerator(i){
-    return serverURL+"?"+"text="+i;
+    return serverURL+"?"+"text=Game:"+i;
 }
 
 submit.addEventListener("click",function outputshow(){
@@ -55,14 +55,14 @@ submit.addEventListener("click",function outputshow(){
     }
 
 
-    fetch(urlGenerator(namein.value))
+    fetch(urlGenerator(u))
     .then(response => response.json())
     .then(json => console.log(json))
     
     fetch(urlGenerator(score))
     .then(response => response.json())
     .then(json => console.log(json))
-    
+    console.log("-------------------")
 
 })
 
