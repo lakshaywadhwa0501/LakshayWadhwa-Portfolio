@@ -14,7 +14,7 @@ var Ans4 = document.querySelector("#Ans4");
 var Ans5 = document.querySelector("#Ans5");
 var submit=document.querySelector("#submitncheck");
 function urlGenerator(i){
-    return serverURL+"?"+"text=Game:"+i;
+    return serverURL+"?"+"text="+i;
 }
 
 submit.addEventListener("click",function outputshow(){
