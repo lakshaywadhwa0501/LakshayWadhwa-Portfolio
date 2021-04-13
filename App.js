@@ -55,7 +55,7 @@ submit.addEventListener("click",function outputshow(){
     }
 
 
-    fetch(urlGenerator(namein))
+    fetch(urlGenerator(namein.value))
     .then(response => response.json())
     .then(json => console.log(json))
     
