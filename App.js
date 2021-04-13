@@ -13,6 +13,7 @@ var Ans3 = document.querySelector("#Ans3");
 var Ans4 = document.querySelector("#Ans4");
 var Ans5 = document.querySelector("#Ans5");
 var submit=document.querySelector("#submitncheck");
+
 submit.addEventListener("click",function outputshow(){
     var score=0;
     if((Ans1.value.trim())==='Black')
@@ -58,10 +59,10 @@ submit.addEventListener("click",function outputshow(){
     fetch(urlGenerator(score))
     .then(response => response.json())
     .then(json => console.log(json))
-    };
+    
 
 })
 
 function urlGenerator(i){
-    return serverURL+"?"+"text="+"friend game "+i
+    return serverURL+"?"+"text="+"friend game "+i;
 }
