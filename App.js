@@ -64,5 +64,5 @@ submit.addEventListener("click",function outputshow(){
 })
 
 function urlGenerator(i){
-    return serverURL+"?"+"text="+i;
+    return serverURL+"?"+"text="+i.value;
 }
