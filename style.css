@@ -43,6 +43,17 @@ body
     color:white;
 }
 
+.primary-link2
+{
+    background-color: crimson;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+  
+    color:white;
+}
+
+
 .secondary-link
 {
     color:crimson;
